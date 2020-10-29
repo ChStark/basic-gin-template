@@ -18,7 +18,7 @@ func User(router *gin.Engine) {
 	})
 
 	addressesHandler := func(context *gin.Context) {
-		context.JSON( 200 , gin.H{ "profile": "some profile" })
+		context.JSON( 200 , gin.H{ "addresses": "some addresses" })
 	}
 
 	//same handler for different paths
